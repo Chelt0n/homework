@@ -10,7 +10,7 @@ public class Main {
         empArray[1] = new Employee("Сергей", "java разараб", "q@ya.ru", 999622505, 30000, 30);
         empArray[2] = new Employee("Дмитрий", "java разараб", "q@ya.ru", 999622505, 30000, 44);
         empArray[3] = new Employee("Олег", "java разараб", "q@ya.ru", 999622505, 30000, 25);
-        empArray[4] = new Employee("Жмых", "java разараб", "q@ya.ru", 999622505, 30000, 15);
+        empArray[4] = new Employee("Ольга", "java разараб", "q@ya.ru", 999622505, 30000, 19);
         for (Employee employers : empArray) {
             if(employers.getAge()> 40){
                 System.out.println(employers.toString());
